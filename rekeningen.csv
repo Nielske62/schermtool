@@ -1,322 +1,215 @@
 Rekening Id;Rekeningnummer;Credits;Limiet;Korting;Status;Aantal gebruikers;Gebruikers;Logins (hoofdaccount);Aantal passen;Passen;Beschrijving;Commissie
-2453027;731;-9,7;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;Roger Hak P73;Senaat
-2453028;732;-49,3;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;Bernt Kool S73;Senaat
-2453029;733;-11,2;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;Bieke von den Hoff T73;Senaat
-2453030;734;-24,2;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;Rens van der Zwaard CO73;Senaat
-2453031;735;-3,7;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;Nina van Tent CC73;Senaat
-2453032;736;-13,8;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;Klapfiets CI73;Senaat
-2453033;737;-14,9;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;Thomas Kuperus CE73;Senaat
-2446494;741;-75,44;1000;17;Actief;1;74 Bestuur;;0;;Sybe Piera P74;Bestuur
-2446495;742;-110,11;1000;17;Actief;1;74 Bestuur;;0;;Richelle Vrouwes S74;Bestuur
-2446496;743;-77,92;1000;17;Actief;1;74 Bestuur;;0;;Allard de Boeij T74;Bestuur
-2446497;744;-29,77;1000;17;Actief;1;74 Bestuur;;0;;Pippa Vossen CO74;Bestuur
-2446498;745;-14,61;1000;17;Actief;1;74 Bestuur;;0;;Julia Radius CC74;Studytour
-2446499;746;-127,33;1000;17;Actief;1;74 Bestuur;;0;;Stephanie Button CI74;Bestuur
-2446500;747;-6,42;1000;17;Actief;1;74 Bestuur;;0;;Didier van der Horst CE74;Bestuur
-2453024;882;-100,22;1000;17;Actief;1;Debiteuren Atmosfeer;;0;;Gijs Vugts S8;LVD
-2165694;883;-41,04;1000;17;Actief;1;Debiteuren Atmosfeer;;0;;Mels Wittenberg T8;DCP
-2453025;884;-20,34;1000;17;Actief;1;Debiteuren Atmosfeer;;0;;Rosemijn Wijnen CC8;Burgers
-2165705;885;-61,81;1000;17;Actief;1;Debiteuren Atmosfeer;;0;;Patrick Brill CI8;LVD
-2453026;886;-2,16;1000;17;Actief;1;Debiteuren Atmosfeer;;0;;Megan Segeren CA8;PreLuCie
-2446487;991;-110,97;1000;17;Actief;1;!9 Bravo;;0;;Nikki Kamphuis V9;Atmosfeerbeheer 9
-2446488;992;-307,41;1000;17;Actief;1;!9 Bravo;;0;;Arjan Vermeulen S9;Atmosfeerbeheer 9
-2446489;993;-318,41;1000;17;Actief;1;!9 Bravo;;0;;Vincent Hoogeboom T9;Atmosfeerbeheer 9
-2446490;994;-161,52;1000;17;Actief;1;!9 Bravo;;0;;Lizzy Middendorp CC9;Atmosfeerbeheer 9
-2415417;995;-105,54;1000;17;Actief;1;!9 Bravo;;0;;Anique Altena CI9;Atmosfeerbeheer 9
-2446491;996;-286,33;1000;17;Actief;1;!9 Bravo;;0;;Thomas Arblaster CA9;Atmosfeerbeheer 9
-2466622;5003;-392,7;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;Stabilo;
-2453943;5011;-67,1;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;Senaat;Senaat
-2374152;5014;-516,5;1332;0;Actief;1;!Borrel Debiteur;;0;;Spacebar;
-2454606;5023;-81,2;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;VSV Externen;
-2466623;5027;-495,6;1000;0;Actief;1;!Borrel Debiteur;;0;;AWEP;
-2208269;5046;-403,9;1000;0;Actief;1;!Borrel Debiteur;;0;;Graduate School;
-2460337;5047;-66,7;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;Atmosfeer Externen;
-2466621;5062;-320,9;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;Stato;
-2491605;7015;-54,4;1000;0;Actief;1;!Borrel Debiteur;;0;;Internship Office;
-2466114;7023;-13;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;NVR;
-2466624;8010;-66,1;1000;0;Actief;1;!Borrel Debiteur;;0;;Wind Energy;
-2460107;9001;-503,25;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;Passen Debiteur;
-2460485;9002;-101,5;1000;0;Actief;1;Debiteuren Atmosfeer;;0;;X!Delft;
-2443611;4302503;20;0;0;Actief;0;;;1;302000503;Freek Kunz;
-2443612;4302504;0,3;0;0;Actief;0;;;1;302000504;Esther Nijhoff;C1AS
-2443613;4302505;4;0;0;Actief;0;;;1;302000505;Lian Greijn;
-2443614;4302506;6,6;0;0;Actief;0;;;1;302000506;Lina Hoskonig;LVD
-2443615;4302507;1,1;0;0;Actief;0;;;1;302000507;Daan Almekinders;
-2443616;4302508;15,9;0;0;Actief;0;;;1;302000508;Max Rijnhart;
-2443617;4302509;15,54;0;0;Actief;0;;;1;302000509;Bastiaan Bosman;PreLuCie
-2443618;4302510;2;0;0;Actief;0;;;1;302000510;Lennart Molendijk;
-2443619;4302511;22,1;0;0;Actief;0;;;1;302000511;Giovanni Lieuw;Studytour
-2443620;4302512;4,3;0;0;Actief;0;;;1;302000512;Max Minnema;BarCo
-2443622;4302514;0,3;0;0;Actief;0;;;1;302000514;Ole de Koning;BarCo
-2443623;4302515;7;0;0;Actief;0;;;1;302000515;Rahiq Ullah;C1AS
-2443624;4302516;8;0;0;Actief;0;;;1;302000516;Vincent de Jong;BarCo
-2443625;4302517;2,5;0;0;Actief;0;;;1;302000517;Maxime Bielders;BarCo
-2443626;4302518;11,6;0;0;Actief;0;;;1;302000518;Naomi Lijesen;WwW
-2443627;4302519;6,8;0;0;Actief;0;;;1;302000519;Ilse Puts;BarCo
-2443628;4302520;8,2;0;0;Actief;0;;;1;302000520;Bob Beekman;BarCo
-2443629;4302521;6,3;0;0;Actief;0;;;1;302000521;Matthias Christiaens;
-2443633;4302525;11,2;0;0;Actief;0;;;1;302000525;Daan Snijders;ScriptCie
-2443634;4302526;12,3;0;0;Actief;0;;;1;302000526;Julia Rademaker;EJWCie
-2443635;4302527;2;0;0;Actief;0;;;1;302000527;Mees Beumer;B2
-2443636;4302528;13,2;0;0;Actief;0;;;1;302000528;Stijn Hersbach;BarCo
-2443637;4302529;1;0;0;Actief;0;;;1;302000529;Daan van der Werff;B2
-2443639;4302531;0,98;0;0;Actief;0;;;1;302000531;Quirijn van Woerkom;EPNH 10
-2443640;4302532;0,9;0;0;Actief;0;;;1;302000532;Eric Dittrich;
-2443641;4302533;0,2;0;0;Actief;0;;;1;302000533;Ji Hwan;Intercom
-2443642;4302534;0,4;0;0;Actief;0;;;1;302000534;Dustin Holohan;EduCaCie
-2443643;4302535;4,1;0;0;Actief;0;;;1;302000535;Kieran de klerk;ScriptCie
-2443665;4302557;11,6;0;17;Actief;0;;;1;302000557;Frank Scholtens;MD Apollo
-2443669;4302561;5,3;0;0;Actief;0;;;1;302000561;Guillaume van Dijk;EduCaCie
-2443682;4302574;0,3;0;17;Actief;0;;;1;302000574;QuinCie;Studytour
-2443683;4302575;0,8;0;0;Actief;0;;;1;302000575;Nick Eichman Baquer;RVD
-2443684;4302576;0,8;0;0;Actief;0;;;1;302000576;Zahid Hasan;
-2443685;4302577;16,43;0;17;Actief;0;;;1;302000577;Jarem Hinsenveld;PreLuCie
-2443686;4302578;8,7;0;17;Actief;0;;;1;302000578;Stefan Knoops;Bestuur
-2443687;4302579;2,7;0;0;Actief;0;;;1;302000579;The Last One;
-2443688;4302580;6,44;0;17;Actief;0;;;1;302000580;Alper Kenger;LVV
-2443689;4302581;9,9;0;0;Actief;0;;;1;302000581;Floor Janssen;
-2443691;4302583;2,7;0;0;Actief;0;;;1;302000583;Kelly Mijs;
-2443692;4302584;21,8;0;0;Actief;0;;;1;302000584;Allard de Boeij;Bestuur
-2443693;4302585;6,9;0;0;Actief;0;;;1;302000585;Richelle Vrouwes;Bestuur
-2443694;4302586;10,8;0;0;Actief;0;;;1;302000586;Matys Voorn;Senaat
-2443695;4302587;8,24;0;17;Actief;0;;;1;302000587;Pepijn Scholten;Senaat
-2443696;4302588;11,42;0;17;Actief;0;;;1;302000588;Rens van der Zwaard;Senaat
-2443881;4302773;2,61;0;17;Actief;0;;;1;302000773;Willem Hoekman;FSC AE
-2443956;4302848;12,5;0;0;Actief;0;;;1;302000848;Katharina Hildebrandt;WwW
-2443957;4302849;8,7;0;0;Actief;0;;;1;302000849;Matti Hitzerd;
-2443958;4302850;6,9;0;0;Actief;0;;;1;302000850;Luuk Koomen;
-2443959;4302851;20;0;0;Actief;0;;;1;302000851;Olivier van Bon;
-2443960;4302852;17,5;0;0;Actief;0;;;1;302000852;Geart van Dam;Senaat
-2443961;4302853;16,1;0;0;Actief;0;;;1;302000853;Fenna van de Bogaard;EJWCie
-2443962;4302854;3,6;0;0;Actief;0;;;1;302000854;Mateo Rodriguez;BarCo
-2443963;4302855;10;0;0;Actief;0;;;1;302000855;Elena Moro;BarCo
-2443964;4302856;13,6;0;0;Actief;0;;;1;302000856;Nout Buijs;BarCo
-2443965;4302857;16,1;0;0;Actief;0;;;1;302000857;Maurice Fiechter;
-2443966;4302858;5,9;0;0;Actief;0;;;1;302000858;Coen Holland;
-2443967;4302859;19;0;0;Actief;0;;;1;302000859;Zoe Breedveld;BarCo
-2443968;4302860;11,6;0;0;Actief;0;;;1;302000860;Rosalie van Casteren;Senaat
-2443969;4302861;13;0;0;Actief;0;;;1;302000861;Tobias de Jong;BarCo
-2443970;4302862;26,4;0;0;Actief;0;;;1;302000862;Tom van Dijn;
-2443971;4302863;4,9;0;0;Actief;0;;;1;302000863;Bas van Dam;MD Apollo
-2443972;4302864;14;0;0;Actief;0;;;1;302000864;Hongwei Quan;
-2443973;4302865;9,9;0;0;Actief;0;;;1;302000865;Diana Olejnik;
-2443974;4302866;2,7;0;0;Actief;0;;;1;302000866;Dale;MD Apollo
-2443975;4302867;9,6;0;0;Actief;0;;;1;302000867;Uludag;
-2443976;4302868;3;0;0;Actief;0;;;1;302000868;Isabel Metz;Loss of Control
-2443977;4302869;6,1;0;0;Actief;0;;;1;302000869;Antonio Goráa;
-2443978;4302870;15,55;0;0;Actief;0;;;1;302000870;Anna Engelke;
-2443979;4302871;4,2;0;0;Actief;0;;;1;302000871;Vincent van Gorp;BarCo
-2443980;4302872;14;0;0;Actief;0;;;1;302000872;Martijn Rusch;
-2443982;4302874;17,4;0;0;Actief;0;;;1;302000874;Mateo Caruso;
-2443983;4302875;13,65;0;0;Actief;0;;;1;302000875;Ralph van Sunten;MD Apollo
-2443984;4302876;3,7;0;0;Actief;0;;;1;302000876;Alexander van den Heiligenberg;
-2443985;4302877;17,4;0;0;Actief;0;;;1;302000877;Mariette de Groot;
-2443986;4302878;10;0;0;Actief;0;;;1;302000878;Fabian van Beek;
-2443987;4302879;8,8;0;0;Actief;0;;;1;302000879;Gijs Janssen;
-2443988;4302880;8,1;0;0;Actief;0;;;1;302000880;Pippa Vossen;Bestuur
-2443990;4302882;0,34;0;17;Actief;0;;;1;302000882;GijS8;LVD
-2443991;4302883;0,21;0;17;Actief;0;;;1;302000883;Mels Wittenberg;DCP
-2443992;4302884;13,25;0;17;Actief;0;;;1;302000884;Rosemijn Wijnen;BourgeoiCie
-2443993;4302885;18,71;0;17;Actief;0;;;1;302000885;Paddie CI8 b’vo;LVD
-2443994;4302886;11,2;0;0;Actief;0;;;1;302000886;Julian Filip;
-2443995;4302887;5,2;0;0;Actief;0;;;1;302000887;Fiona  Feverona;
-2443996;4302888;1,3;0;0;Actief;0;;;1;302000888;VSV Sufke Wania;VCV Flopke Wania
-2443997;4302889;12,6;0;0;Actief;0;;;1;302000889;Victor Villacba;
-2443998;4302890;0,8;0;0;Actief;0;;;1;302000890;De Ringvaartploeg;
-2443999;4302891;5,1;0;0;Actief;0;;;1;302000891;Maurice Hoogreef;
-2444000;4302892;10,59;0;17;Actief;0;;;1;302000892;Luuk van der Schaft;
-2444001;4302893;0,3;0;0;Actief;0;;;1;302000893;Mathijs Beuker;
-2444004;4302896;7,3;0;0;Actief;0;;;1;302000896;Teun Wegkamp;
-2444005;4302897;3;0;0;Actief;0;;;1;302000897;Yosuke Hordijk;BarCo
-2444006;4302898;11,6;0;0;Actief;0;;;1;302000898;Hugo;
-2444007;4302899;18,4;0;0;Actief;0;;;1;302000899;Daniel Tuinman;
-2444008;4302900;4,8;0;0;Actief;0;;;1;302000900;Guillhermo;
-2444009;4302901;5,5;0;0;Actief;0;;;1;302000901;Ties;
-2444010;4302902;10;0;0;Actief;0;;;1;302000902;Nena;
-2444011;4302903;2,3;0;0;Actief;0;;;1;302000903;Jair Lemmens;
-2444012;4302904;15,3;0;0;Actief;0;;;1;302000904;Tinka van der Wal;
-2444013;4302905;2,7;0;0;Actief;0;;;1;302000905;JF Bramlage;
-2444014;4302906;6,5;0;0;Actief;0;;;1;302000906;Yvar Sander;
-2444015;4302907;17,3;0;0;Actief;0;;;1;302000907;Bram Buijvoets;BarCo
-2444016;4302908;8,9;0;0;Actief;0;;;1;302000908;Floris Ganter;
-2444018;4302910;28,7;0;0;Actief;0;;;1;302000910;Anja Van Willigen;
-2444019;4302911;20,3;0;0;Actief;0;;;1;302000911;Delfina;
-2444021;4302913;18;0;0;Actief;0;;;1;302000913;Mik Swart;EJWCie
-2444022;4302914;0,9;0;0;Actief;0;;;1;302000914;Frank Diependaal;FiFoCo Senaat
-2444023;4302915;14,3;0;17;Actief;0;;;1;302000915;Rik Kalings;Atmosfeersenaat
-2444024;4302916;5,28;0;17;Actief;0;;;1;302000916;Brentebol;Senaat
-2444025;4302917;6,8;0;0;Actief;0;;;1;302000917;Dennis Dolkens;
-2444026;4302918;5,9;0;0;Actief;0;;;1;302000918;Ruben Michaux;Senaat
-2444027;4302919;0,7;0;0;Actief;0;;;1;302000919;Michiel Mollema;
-2444028;4302920;7,4;0;0;Actief;0;;;1;302000920;Thomas Kuperus;Senaat
-2444029;4302921;13,2;0;0;Actief;0;;;1;302000921;Casper Dek;Senaat
-2444030;4302922;2,1;0;0;Actief;0;;;1;302000922;Eline Bakker;
-2444031;4302923;6,7;0;0;Actief;0;;;1;302000923;Maria Seoane Alvarez;MD Apollo
-2444032;4302924;46,1;0;0;Actief;0;;;1;302000924;Nitish Anand;
-2444033;4302925;16,7;0;0;Actief;0;;;1;302000925;Maximilian Meijkamp;AkCie
-2444034;4302926;1,4;0;0;Actief;0;;;1;302000926;Jaime Junell;
-2444035;4302927;5,1;0;0;Actief;0;;;1;302000927;Sophie Armanini;
-2444036;4302928;24,7;0;0;Actief;0;;;1;302000928;Coen de Visser;Loss of Control
-;4302932;;;;;;;;;;;Loss of Control
-2444037;4302929;0,9;0;0;Actief;0;;;1;302000929;Marsil Silva;
-2444038;4302930;5,7;0;0;Actief;0;;;1;302000930;Matej Karasek;
-2444039;4302931;8,2;0;0;Actief;0;;;1;302000931;Youri van Delft;
-2444041;4302933;18,49;0;17;Actief;0;;;1;302000933;Manouschka van Beek;
-2444045;4302937;2,3;0;0;Actief;0;;;1;302000937;Huize Rufies;Huize Rufies
-2444046;4302938;1,6;0;0;Actief;0;;;1;302000938;Eilidh radcliff;
-2444047;4302939;2,9;0;0;Actief;0;;;1;302000939;Floris Heeres masage gast;LVV
-2444048;4302940;3,97;0;0;Actief;0;;;1;302000940;Mitchell THE KAISER;EPNH 10
-2444049;4302941;16,6;0;0;Actief;0;;;1;302000941;Helena Den Ouden;
-2444050;4302942;11,5;0;0;Actief;0;;;1;302000942;Mischa de gooijer;
-2444055;4302947;8,2;0;0;Actief;0;;;1;302000947;Olav van Voorst;Limitless
-2444056;4302948;4,3;0;0;Actief;0;;;1;302000948;Roosa Joensuu;AkCie
-2444057;4302949;5,3;0;0;Actief;0;;;1;302000949;Merlijn Hunik;AkCie
-2444058;4302950;0,4;0;0;Actief;0;;;1;302000950;Matthew Dekkers;
-2444059;4302951;15,2;0;0;Actief;0;;;1;302000951;Sophie Keemink;Jaerbouck
-2444060;4302952;9;0;0;Actief;0;;;1;302000952;Chiel van Baardwijk;EJWCie
-2444061;4302953;22,2;0;0;Actief;0;;;1;302000953;Bart Smits;
-2444062;4302954;4;0;0;Actief;0;;;1;302000954;Julius Caron;EPNH 10
-2444063;4302955;4,8;0;0;Actief;0;;;1;302000955;Lauren Kaffa;LVD
-2444064;4302956;3;0;0;Actief;0;;;1;302000956;Quinten van Woerkom;Jaerbouck
-2444065;4302957;5,5;0;0;Actief;0;;;1;302000957;Yara Hinssen;Limitless
-2444066;4302958;0,2;0;0;Actief;0;;;1;302000958;Floor Bagchus;EJWCie
-2444067;4302959;21,2;0;0;Actief;0;;;1;302000959;Manouk van der Zwan;EJWCie
-2444068;4302960;7,4;0;0;Actief;0;;;1;302000960;Stella Wessels;AkCie
-2444069;4302961;0,1;0;0;Actief;0;;;1;302000961;Jilles Andringa;Limitless
-2444070;4302962;2,7;0;0;Actief;0;;;1;302000962;Teun Vlemming;
-2444072;4302964;0,1;0;0;Actief;0;;;1;302000964;Wiener Verbeek;EPNH 10
-2444073;4302965;2,2;0;0;Actief;0;;;1;302000965;Femke Middelhoek;LVD
-2444074;4302966;12,75;0;0;Actief;0;;;1;302000966;Martijn Brummelhuis;RVD
-2444075;4302967;15,4;0;0;Actief;0;;;1;302000967;Jelle Kok;EPNH 10
-2444076;4302968;0,6;0;0;Actief;0;;;1;302000968;Shadab Eftekhar;
-2444077;4302969;1;0;0;Actief;0;;;1;302000969;Sarah Vanleeuwen;TapCie
-2444078;4302970;13,8;0;0;Actief;0;;;1;302000970;Mats Dirkzwager;LVV
-2444079;4302971;11;0;0;Actief;0;;;1;302000971;Jelle Westenberger;ScriptCie
-2444080;4302972;14;0;0;Actief;0;;;1;302000972;Sander Orbons;Limitless
-2444081;4302973;9,2;0;0;Actief;0;;;1;302000973;Menno Berger;
-2444082;4302974;20,5;0;0;Actief;0;;;1;302000974;Martijn Kanger;Limitless
-2444083;4302975;9,2;0;0;Actief;0;;;1;302000975;;Studytour
-2444084;4302976;6,6;0;0;Actief;0;;;1;302000976;;
-2444085;4302977;10,07;0;0;Actief;0;;;1;302000977;Marijn van Oorschot;Studytour
-2444086;4302978;20,3;0;0;Actief;0;;;1;302000978;Kirk Scheper;
-2444087;4302979;2,1;0;0;Actief;0;;;1;302000979;Kimberly Mcguie;Loss of Control
-2444088;4302980;28,7;0;0;Actief;0;;;1;302000980;Megan Walker;
-2444089;4302981;0,26;0;0;Actief;0;;;1;302000981;Johan;
-2444091;4302983;33,5;0;0;Actief;0;;;1;302000983;Clemens Dransfeld;
-2444092;4302984;1,5;0;0;Actief;0;;;1;302000984;2.60;2.60
-2444093;4302985;2,2;0;0;Actief;0;;;1;302000985;Jari Lubberding;
-2444094;4302986;6,4;0;0;Actief;0;;;1;302000986;Bob van Noort;
-2444095;4302987;19,6;0;0;Actief;0;;;1;302000987;Niels Reurings;
-2444096;4302988;11;0;0;Actief;0;;;1;302000988;Amber van Hauwermeiren;
-2444097;4302989;21,7;0;0;Actief;0;;;1;302000989;NOVAM;NOVAM
-2444098;4302990;0,1;0;0;Actief;0;;;1;302000990;NOVAM;NOVAM
-2444104;4302996;8,61;0;17;Actief;0;;;1;302000996;Thomas Arblaster;Atmosfeerbeheer 9
-2444105;4302997;3,9;0;17;Actief;0;;;1;302000997;Anique Altena;Atmosfeerbeheer 9
-2444106;4302998;11,19;0;17;Actief;0;;;1;302000998;Max Aalberse;Atmosfeersenaat
-2444108;43021000;0,8;0;0;Actief;0;;;1;302001000;Bruce LeBlanc;
-2444109;4302836;0,8;0;0;Actief;0;;;1;302000836;Stef Crum;BarCo
-2444110;4302945;0,8;0;0;Actief;0;;;1;302000945;Aytek Korkmaz;B1
-2444111;4302814;0,9;0;0;Actief;0;;;1;302000814;Frank Diependaal;FiFoCo
-2444111;4302642;0,9;0;0;Actief;0;;;1;302000642;Tido Houtepen;FiFoCo
-2444112;4302786;0,9;0;0;Actief;0;;;1;302000786;Megan Segeren;PreLuCie
-2444113;4302503;0,9;0;0;Actief;0;;;1;302000503;Freak Spark;B1
-2444549;4302549;0,9;0;0;Actief;0;;;1;302000549;Aslan;Limitless
-2444114;4302820;0,9;0;0;Actief;0;;;1;302000820;Oyvind Pettersen;EPNH 10
-;4302563;;;;;;;;;302000563;Stylos;wikipedia.org/wiki/Baksteen
-;4302564;;;;;;;;;302000564;TG;Te Gaar
-;4302703;;;;;;;;;302000703;CH;Christiaan Huifkar
-;4302541;;;;;;;;;302000541;CH;Christiaan Huifkar
-;4302701;;;;;;;;;302000701;PS;Suf.
-;4302691;;;;;;;;;302000691;ETV;Stekkertrekkers
-;4302690;;;;;;;;;302000690;Leeghwater;Dombo
-;4302689;;;;;;;;;302000689;i.d.;Hobbyclub Idee
-;4302688;;;;;;;;;302000688;Variscopic;Nursing School
-;4302687;;;;;;;;;302000687;VvTP;VvTparttime
-;4302536;;;;;;;;;302000536;;SV LIFE
-;4302573;;;;;;;;;302000573;;SV LIFE
-;4302547;;;;;;;;;302000547;;Limitless
-;4302614;;;;;;;;;302000614;ChristeLLV Prins;LVV
-;4302554;;;;;;;;;302000554;;PreLuCie
-;4302637;;;;;;;;;302000637;;Hoogherhuysch
-;4302598;;;;;;;;;302000598;;Hoogherhuysch
-;4302566;;;;;;;;;302000566;;AMT
-;4302711;;;;;;;;;302000711;;Birdo
-;4302543;;;;;;;;;;;EPNH CEOs
-;4302878;;;;;;;;;;;Fabian & Co
-;4302643;;;;;;;;;;;Jaerbouck
-;4302594;;;;;;;;;;;EOC 151
-;4302121;;;;;;;;;;;Commissie
-;4302912;;;;;;;;;;;AkCie
-;4302502;;;;;;;;;;;NOVAM
-;4302843;;;;;;;;;;;BarCo
-;4302839;;;;;;;;;;;Limitless
-;4302838;;;;;;;;;;;LVD
-;4302837;;;;;;;;;;;Senaat
-;4302505;;;;;;;;;;;EduCaCie
-;4302840;;;;;;;;;;;VMBO
-;4302831;;;;;;;;;;;C1AS
-;4302877;;;;;;;;;;;WwW
-;4302901;;;;;;;;;;;C1AS
-;4302833;;;;;;;;;;;PreLuCie
-;4302824;;;;;;;;;;;DeBaCo
-;4302818;;;;;;;;;;;Atmosfeersenaat
-;4302978;;;;;;;;;;;Loss of Control
-;4302930;;;;;;;;;;;Loss of Control
-;4302862;;;;;;;;;;;Loss of Control
-;4302894;;;;;;;;;;;Loss of Control
-;4302813;;;;;;;;;;;Loss of Control
-;4302819;;;;;;;;;;;Studytour
-;4302811;;;;;;;;;;;Ome Corvers
-;4302812;;;;;;;;;;;LVV
-;4302806;;;;;;;;;;;N0t Russ14n H4ck3rs
-;4302804;;;;;;;;;;;N0t Russ14n H4ck3rs
-;4302887;;;;;;;;;;;ITISFLAT
-;4302579;;;;;;;;;;;ITISFLAT
-;4302867;;;;;;;;;;;ITISFLAT
-;4302929;;;;;;;;;;;ITISFLAT
-;4302983;;;;;;;;;;;AMT
-;4302800;;;;;;;;;;;SIM 008
-;4302801;;;;;;;;;;;SIM 008
-;4302799;;;;;;;;;;;EduCaCie
-;4302798;;;;;;;;;;;EJWCie
-;4302785;;;;;;;;;;;ASCM
-;4302874;;;;;;;;;;;Jaerbouck
-;4302627;;;;;;;;;;;PSOR
-;4302787;;;;;;;;;;;InterCom
-;4302789;;;;;;;;;;;InterCom
-;4302634;;;;;;;;;;;Matighuysch
-;4302784;;;;;;;;;;;BIT
-;4302595;;;;;;;;;;;B2
-;4302629;;;;;;;;;;;C1AS
-;4302630;;;;;;;;;;;B1
-;4302592;;;;;;;;;;;Zandortje
-;4302626;;;;;;;;;;;RVD
-;4302605;;;;;;;;;;;Loss of Control
-;4302603;;;;;;;;;;;Maarten W en de Senatoren
-;4302603;;;;;;;;;;;Horse Fighter
-;4302796;;;;;;;;;;;WwW
-;4302640;;;;;;;;;;;Senaat
-;4302612;;;;;;;;;;;DeBaCo
-;4302620;;;;;;;;;;;Senaat
-;4302617;;;;;;;;;;;BraVliegtuig
-;4302542;;;;;;;;;;;Senaat
-;4302611;;;;;;;;;;;DeBaCo
-;4302545;;;;;;;;;;;DeBaCo
-;4302550;;;;;;;;;;;FSC AE
-;4302621;;;;;;;;;;;Burgers
-;4302633;;;;;;;;;;;Enlightness
-;4302881;;;;;;;;;;;RVD
-;4302567;;;;;;;;;;;Tinkelbel
-;4302555;;;;;;;;;;;LVD
-;4302572;;;;;;;;;;;Robert Koster
-;4302710;;;;;;;;;;;Toko
-;4302924;;;;;;;;;;;FPP Drunkyard
-;4302569;;;;;;;;;;;Atmosfeersenaat
-;4302708;;;;;;;;;;;UpperHouse
-;4302706;;;;;;;;;;;244
-;4302537;;;;;;;;;;;DeBaCo
-;4302721;;;;;;;;;;;AMT
-;4302556;;;;;;;;;;;BarCo
-;4302704;;;;;;;;;;;'Vo Lars
-;4302551;;;;;;;;;;;Senaat
-;4302713;;;;;;;;;;;BarCo
+2453027;731;-9,70;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;Roger Hak P73;Senaat
+2453028;732;-49,30;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;Bernt Kool S73;Senaat
+2453029;733;-11,20;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;Bieke von den Hoff T73;Senaat
+2453030;734;-24,20;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;Rens van der Zwaard CO73;Senaat
+2453031;735;-3,70;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;Nina van Tent CC73;Senaat
+2453032;736;-13,80;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;Klapfiets CI73;Senaat
+2453033;737;-14,90;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;Thomas Kuperus CE73;Senaat
+2446494;741;-75,44;1000,00;17;Actief;1;74 Bestuur;;0;;Sybe Piera P74;Bestuur
+2446495;742;-110,11;1000,00;17;Actief;1;74 Bestuur;;0;;Richelle Vrouwes S74;Bestuur
+2446496;743;-77,92;1000,00;17;Actief;1;74 Bestuur;;0;;Allard de Boeij T74;Bestuur
+2446497;744;-29,77;1000,00;17;Actief;1;74 Bestuur;;0;;Pippa Vossen CO74;Bestuur
+2446498;745;-14,61;1000,00;17;Actief;1;74 Bestuur;;0;;Julia Radius CC74;Bestuur
+2446499;746;-127,33;1000,00;17;Actief;1;74 Bestuur;;0;;Stephanie Button CI74;Bestuur
+2446500;747;-6,42;1000,00;17;Actief;1;74 Bestuur;;0;;Didier van der Horst CE74;Bestuur
+2453024;882;-100,22;1000,00;17;Actief;1;Debiteuren Atmosfeer;;0;;Gijs Vugts S8;LVD
+2165694;883;-41,04;1000,00;17;Actief;1;Debiteuren Atmosfeer;;0;;Mels Wittenberg T8;DCP
+2453025;884;-20,34;1000,00;17;Actief;1;Debiteuren Atmosfeer;;0;;Rosemijn Wijnen CC8;Burgers
+2165705;885;-61,81;1000,00;17;Actief;1;Debiteuren Atmosfeer;;0;;Patrick Brill CI8;LVD
+2453026;886;-2,16;1000,00;17;Actief;1;Debiteuren Atmosfeer;;0;;Megan Segeren CA8;PreLuCie
+2446487;991;-110,97;1000,00;17;Actief;1;!9 Bravo;;0;;Nikki Kamphuis V9;Atmosfeerbeheer 9
+2446488;992;-307,41;1000,00;17;Actief;1;!9 Bravo;;0;;Arjan Vermeulen S9;Atmosfeerbeheer 9
+2446489;993;-318,41;1000,00;17;Actief;1;!9 Bravo;;0;;Vincent Hoogeboom T9;Atmosfeerbeheer 9
+2446490;994;-161,52;1000,00;17;Actief;1;!9 Bravo;;0;;Lizzy Middendorp CC9;Atmosfeerbeheer 9
+2415417;995;-105,54;1000,00;17;Actief;1;!9 Bravo;;0;;Anique Altena CI9;Atmosfeerbeheer 9
+2446491;996;-286,33;1000,00;17;Actief;1;!9 Bravo;;0;;Thomas Arblaster CA9;Atmosfeerbeheer 9
+2466622;5003;-392,70;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;Stabilo;
+2453943;5011;-67,10;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;Senaat;Senaat
+2374152;5014;-516,50;1332,00;0;Actief;1;!Borrel Debiteur;;0;;Spacebar;
+2454606;5023;-81,20;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;VSV Externen;
+2466623;5027;-495,60;1000,00;0;Actief;1;!Borrel Debiteur;;0;;AWEP;
+2208269;5046;-403,90;1000,00;0;Actief;1;!Borrel Debiteur;;0;;Graduate School;
+2460337;5047;-66,70;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;Atmosfeer Externen;
+2466621;5062;-320,90;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;Stato;
+2491605;7015;-54,40;1000,00;0;Actief;1;!Borrel Debiteur;;0;;Internship Office;
+2466114;7023;-13,00;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;NVR;
+2466624;8010;-66,10;1000,00;0;Actief;1;!Borrel Debiteur;;0;;Wind Energy;
+2460107;9001;-503,25;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;Passen Debiteur;
+2460485;9002;-101,50;1000,00;0;Actief;1;Debiteuren Atmosfeer;;0;;X!Delft;
+2443611;4302503;20,00;0,00;0;Actief;0;;;1;302000503;Freek Kunz;
+2443612;4302504;0,30;0,00;0;Actief;0;;;1;302000504;Esther Nijhoff;
+2443613;4302505;4,00;0,00;0;Actief;0;;;1;302000505;Lian Greijn;
+2443614;4302506;6,60;0,00;0;Actief;0;;;1;302000506;Lina Hoskonig;LVD
+2443615;4302507;1,10;0,00;0;Actief;0;;;1;302000507;Daan Almekinders;
+2443616;4302508;15,90;0,00;0;Actief;0;;;1;302000508;Max Rijnhart;
+2443617;4302509;15,54;0,00;0;Actief;0;;;1;302000509;Bastiaan Bosman;PreLuCie
+2443618;4302510;2,00;0,00;0;Actief;0;;;1;302000510;Lennart Molendijk;
+2443619;4302511;22,10;0,00;0;Actief;0;;;1;302000511;Giovanni Lieuw;Studytour
+2443620;4302512;4,30;0,00;0;Actief;0;;;1;302000512;Max Minnema;BarCo
+2443622;4302514;0,30;0,00;0;Actief;0;;;1;302000514;Ole de Koning;BarCo
+2443623;4302515;7,00;0,00;0;Actief;0;;;1;302000515;Rahiq Ullah;
+2443624;4302516;8,00;0,00;0;Actief;0;;;1;302000516;Vincent de Jong;BarCo
+2443625;4302517;2,50;0,00;0;Actief;0;;;1;302000517;Maxime Bielders;BarCo
+2443626;4302518;11,60;0,00;0;Actief;0;;;1;302000518;Naomi Lijesen;WwW
+2443627;4302519;6,80;0,00;0;Actief;0;;;1;302000519;Ilse Puts;BarCo
+2443628;4302520;8,20;0,00;0;Actief;0;;;1;302000520;Bob Beekman;BarCo
+2443629;4302521;6,30;0,00;0;Actief;0;;;1;302000521;Matthias Christiaens;
+2443633;4302525;11,20;0,00;0;Actief;0;;;1;302000525;Daan Snijders;ScriptCie
+2443634;4302526;12,30;0,00;0;Actief;0;;;1;302000526;Julia Rademaker;EJWCie
+2443635;4302527;2,00;0,00;0;Actief;0;;;1;302000527;Mees Beumer;B2
+2443636;4302528;13,20;0,00;0;Actief;0;;;1;302000528;Stijn Hersbach;BarCo
+2443637;4302529;1,00;0,00;0;Actief;0;;;1;302000529;Daan van der Werff;B2
+2443639;4302531;0,98;0,00;0;Actief;0;;;1;302000531;Quirijn van Woerkom;AkCie
+2443640;4302532;0,90;0,00;0;Actief;0;;;1;302000532;Eric Dittrich;
+2443641;4302533;0,20;0,00;0;Actief;0;;;1;302000533;Ji Hwan;Intercom
+2443642;4302534;0,40;0,00;0;Actief;0;;;1;302000534;Dustin Holohan;
+2443643;4302535;4,10;0,00;0;Actief;0;;;1;302000535;Kieran de klerk;ScriptCie
+2443665;4302557;11,60;0,00;17;Actief;0;;;1;302000557;Frank Scholtens;MD Apollo
+2443669;4302561;5,30;0,00;0;Actief;0;;;1;302000561;Guillaume van Dijk;EduCaCie
+2443682;4302574;0,30;0,00;17;Actief;0;;;1;302000574;QuinCie;PreLuCie
+2443683;4302575;0,80;0,00;0;Actief;0;;;1;302000575;Nick Eichman Baquer;RVD
+2443684;4302576;0,80;0,00;0;Actief;0;;;1;302000576;Zahid Hasan;
+2443685;4302577;16,43;0,00;17;Actief;0;;;1;302000577;Jarem Hinsenveld;PreLuCie
+2443686;4302578;8,70;0,00;17;Actief;0;;;1;302000578;Stefan Knoops;Bestuur
+2443687;4302579;2,70;0,00;0;Actief;0;;;1;302000579;The Last One;
+2443688;4302580;6,44;0,00;17;Actief;0;;;1;302000580;Alper Kenger;LVV
+2443689;4302581;9,90;0,00;0;Actief;0;;;1;302000581;Floor Janssen;
+2443691;4302583;2,70;0,00;0;Actief;0;;;1;302000583;Kelly Mijs;
+2443692;4302584;21,80;0,00;0;Actief;0;;;1;302000584;Allard de Boeij;Bestuur
+2443693;4302585;6,90;0,00;0;Actief;0;;;1;302000585;Richelle Vrouwes;Bestuur
+2443694;4302586;10,80;0,00;0;Actief;0;;;1;302000586;Matys Voorn;Senaat
+2443695;4302587;8,24;0,00;17;Actief;0;;;1;302000587;Pepijn Scholten;Senaat
+2443696;4302588;11,42;0,00;17;Actief;0;;;1;302000588;Rens van der Zwaard;Senaat
+2443881;4302773;2,61;0,00;17;Actief;0;;;1;302000773;Willem Hoekman;
+2443956;4302848;12,50;0,00;0;Actief;0;;;1;302000848;Katharina Hildebrandt;WwW
+2443957;4302849;8,70;0,00;0;Actief;0;;;1;302000849;Matti Hitzerd;
+2443958;4302850;6,90;0,00;0;Actief;0;;;1;302000850;Luuk Koomen;
+2443959;4302851;20,00;0,00;0;Actief;0;;;1;302000851;Olivier van Bon;
+2443960;4302852;17,50;0,00;0;Actief;0;;;1;302000852;Geart van Dam;Senaat
+2443961;4302853;16,10;0,00;0;Actief;0;;;1;302000853;Fenna van de Bogaard;EJWCie
+2443962;4302854;3,60;0,00;0;Actief;0;;;1;302000854;Mateo Rodriguez;BarCo
+2443963;4302855;10,00;0,00;0;Actief;0;;;1;302000855;Elena Moro;BarCo
+2443964;4302856;13,60;0,00;0;Actief;0;;;1;302000856;Nout Buijs;BarCo
+2443965;4302857;16,10;0,00;0;Actief;0;;;1;302000857;Maurice Fiechter;
+2443966;4302858;5,90;0,00;0;Actief;0;;;1;302000858;Coen Holland;
+2443967;4302859;19,00;0,00;0;Actief;0;;;1;302000859;Zoe Breedveld;BarCo
+2443968;4302860;11,60;0,00;0;Actief;0;;;1;302000860;Rosalie van Casteren;Senaat
+2443969;4302861;13,00;0,00;0;Actief;0;;;1;302000861;Tobias de Jong;BarCo
+2443970;4302862;26,40;0,00;0;Actief;0;;;1;302000862;Tom van Dijn;
+2443971;4302863;4,90;0,00;0;Actief;0;;;1;302000863;Bas van Dam;MD Apollo
+2443972;4302864;14,00;0,00;0;Actief;0;;;1;302000864;Hongwei Quan;
+2443973;4302865;9,90;0,00;0;Actief;0;;;1;302000865;Diana Olejnik;
+2443974;4302866;2,70;0,00;0;Actief;0;;;1;302000866;Dale;MD Apollo
+2443975;4302867;9,60;0,00;0;Actief;0;;;1;302000867;Uludag;
+2443976;4302868;3,00;0,00;0;Actief;0;;;1;302000868;Isabel Metz;
+2443977;4302869;6,10;0,00;0;Actief;0;;;1;302000869;Antonio Goráa;
+2443978;4302870;15,55;0,00;0;Actief;0;;;1;302000870;Anna Engelke;
+2443979;4302871;4,20;0,00;0;Actief;0;;;1;302000871;hize rufies;Huize Rufies
+2443980;4302872;14,00;0,00;0;Actief;0;;;1;302000872;Martijn Rusch;
+2443982;4302874;17,40;0,00;0;Actief;0;;;1;302000874;Mateo Caruso;
+2443983;4302875;13,65;0,00;0;Actief;0;;;1;302000875;Ralph van Sunten;MD Apollo
+2443984;4302876;3,70;0,00;0;Actief;0;;;1;302000876;Alexander van den Heiligenberg;
+2443985;4302877;17,40;0,00;0;Actief;0;;;1;302000877;Mariette de Groot;
+2443986;4302878;10,00;0,00;0;Actief;0;;;1;302000878;Fabian van Beek;
+2443987;4302879;8,80;0,00;0;Actief;0;;;1;302000879;Gijs Janssen;
+2443988;4302880;8,10;0,00;0;Actief;0;;;1;302000880;Pippa Vossen;Bestuur
+2443990;4302882;0,34;0,00;17;Actief;0;;;1;302000882;GijS8;LVD
+2443991;4302883;0,21;0,00;17;Actief;0;;;1;302000883;Mels Wittenberg;DCP
+2443992;4302884;13,25;0,00;17;Actief;0;;;1;302000884;Rosemijn Wijnen;Burgers
+2443993;4302885;18,71;0,00;17;Actief;0;;;1;302000885;Paddie CI8 b’vo;LVD
+2443994;4302886;11,20;0,00;0;Actief;0;;;1;302000886;Julian Filip;
+2443995;4302887;5,20;0,00;0;Actief;0;;;1;302000887;Fiona  Feverona;
+2443996;4302888;1,30;0,00;0;Actief;0;;;1;302000888;VSV Sufke Wania;VCV Flopke Wania
+2443997;4302889;12,60;0,00;0;Actief;0;;;1;302000889;Victor Villacba;
+2443998;4302890;0,80;0,00;0;Actief;0;;;1;302000890;De Ringvaartploeg;
+2443999;4302891;5,10;0,00;0;Actief;0;;;1;302000891;Maurice Hoogreef;
+2444000;4302892;10,59;0,00;17;Actief;0;;;1;302000892;Luuk van der Schaft;
+2444001;4302893;0,30;0,00;0;Actief;0;;;1;302000893;Mathijs Beuker;
+2444004;4302896;7,30;0,00;0;Actief;0;;;1;302000896;Teun Wegkamp;
+2444005;4302897;3,00;0,00;0;Actief;0;;;1;302000897;Yosuke Hordijk;BarCo
+2444006;4302898;11,60;0,00;0;Actief;0;;;1;302000898;Hugo;
+2444007;4302899;18,40;0,00;0;Actief;0;;;1;302000899;Daniel Tuinman;
+2444008;4302900;4,80;0,00;0;Actief;0;;;1;302000900;Guillhermo;
+2444009;4302901;5,50;0,00;0;Actief;0;;;1;302000901;Ties;
+2444010;4302902;10,00;0,00;0;Actief;0;;;1;302000902;Nena;
+2444011;4302903;2,30;0,00;0;Actief;0;;;1;302000903;Jair Lemmens;
+2444012;4302904;15,30;0,00;0;Actief;0;;;1;302000904;Tinka van der Wal;
+2444013;4302905;2,70;0,00;0;Actief;0;;;1;302000905;JF Bramlage;
+2444014;4302906;6,50;0,00;0;Actief;0;;;1;302000906;Yvar Sander;
+2444015;4302907;17,30;0,00;0;Actief;0;;;1;302000907;Bram Buijvoets;BarCo
+2444016;4302908;8,90;0,00;0;Actief;0;;;1;302000908;Floris Ganter;
+2444018;4302910;28,70;0,00;0;Actief;0;;;1;302000910;Anja Van Willigen;
+2444019;4302911;20,30;0,00;0;Actief;0;;;1;302000911;Delfina;
+2444021;4302913;18,00;0,00;0;Actief;0;;;1;302000913;Mik Swart;EJWCie
+2444022;4302914;0,90;0,00;0;Actief;0;;;1;302000914;Frank Diependaal;FiFoCo
+2444023;4302915;14,30;0,00;17;Actief;0;;;1;302000915;Rik Kalings;
+2444024;4302916;5,28;0,00;17;Actief;0;;;1;302000916;Brentebol;Senaat
+2444025;4302917;6,80;0,00;0;Actief;0;;;1;302000917;Dennis Dolkens;
+2444026;4302918;5,90;0,00;0;Actief;0;;;1;302000918;Ruben Michaux;Senaat
+2444027;4302919;0,70;0,00;0;Actief;0;;;1;302000919;Michiel Mollema;
+2444028;4302920;7,40;0,00;0;Actief;0;;;1;302000920;Thomas Kuperus;Senaat
+2444029;4302921;13,20;0,00;0;Actief;0;;;1;302000921;Casper Dek;Senaat
+2444030;4302922;2,10;0,00;0;Actief;0;;;1;302000922;Eline Bakker;
+2444031;4302923;6,70;0,00;0;Actief;0;;;1;302000923;Maria Seoane Alvarez;MD Apollo
+2444032;4302924;46,10;0,00;0;Actief;0;;;1;302000924;Nitish Anand;
+2444033;4302925;16,70;0,00;0;Actief;0;;;1;302000925;Maximilian Meijkamp;AkCie
+2444034;4302926;1,40;0,00;0;Actief;0;;;1;302000926;Jaime Junell;
+2444035;4302927;5,10;0,00;0;Actief;0;;;1;302000927;Sophie Armanini;
+2444036;4302928;24,70;0,00;0;Actief;0;;;1;302000928;Coen de Visser;
+2444037;4302929;0,90;0,00;0;Actief;0;;;1;302000929;Marsil Silva;
+2444038;4302930;5,70;0,00;0;Actief;0;;;1;302000930;Matej Karasek;
+2444039;4302931;8,20;0,00;0;Actief;0;;;1;302000931;Youri van Delft;
+2444041;4302933;18,49;0,00;17;Actief;0;;;1;302000933;Manouschka van Beek;
+2444045;4302937;2,30;0,00;0;Actief;0;;;1;302000937;Huize Rufies;Huize Rufies
+2444046;4302938;1,60;0,00;0;Actief;0;;;1;302000938;Eilidh radcliff;
+2444047;4302939;2,90;0,00;0;Actief;0;;;1;302000939;Floris Heeres masage gast;LVV
+2444048;4302940;3,97;0,00;0;Actief;0;;;1;302000940;Mitchell THE KAISER;
+2444049;4302941;16,60;0,00;0;Actief;0;;;1;302000941;Helena Den Ouden;
+2444050;4302942;11,50;0,00;0;Actief;0;;;1;302000942;Mischa de gooijer;
+2444055;4302947;8,20;0,00;0;Actief;0;;;1;302000947;Olav van Voorst;Limitless
+2444056;4302948;4,30;0,00;0;Actief;0;;;1;302000948;Roosa Joensuu;AkCie
+2444057;4302949;5,30;0,00;0;Actief;0;;;1;302000949;Merlijn Hunik;AkCie
+2444058;4302950;0,40;0,00;0;Actief;0;;;1;302000950;Matthew Dekkers;
+2444059;4302951;15,20;0,00;0;Actief;0;;;1;302000951;Sophie Keemink;Jaerbouck
+2444060;4302952;9,00;0,00;0;Actief;0;;;1;302000952;Chiel van Baardwijk;EJWCie
+2444061;4302953;22,20;0,00;0;Actief;0;;;1;302000953;Bart Smits;
+2444062;4302954;4,00;0,00;0;Actief;0;;;1;302000954;Julius Caron;EduCaCie
+2444063;4302955;4,80;0,00;0;Actief;0;;;1;302000955;Lauren Kaffa;LVD
+2444064;4302956;3,00;0,00;0;Actief;0;;;1;302000956;Quinten van Woerkom;Jaerbouck
+2444065;4302957;5,50;0,00;0;Actief;0;;;1;302000957;Yara Hinssen;Limitless
+2444066;4302958;0,20;0,00;0;Actief;0;;;1;302000958;Floor Bagchus;EJWCie
+2444067;4302959;21,20;0,00;0;Actief;0;;;1;302000959;Manouk van der Zwan;EJWCie
+2444068;4302960;7,40;0,00;0;Actief;0;;;1;302000960;Stella Wessels;AkCie
+2444069;4302961;0,10;0,00;0;Actief;0;;;1;302000961;Jilles Andringa;Limitless
+2444070;4302962;2,70;0,00;0;Actief;0;;;1;302000962;Teun Vlemming;
+2444072;4302964;0,10;0,00;0;Actief;0;;;1;302000964;Wiener Verbeek;Jaerbouck
+2444073;4302965;2,20;0,00;0;Actief;0;;;1;302000965;Femke Middelhoek;LVD
+2444074;4302966;12,75;0,00;0;Actief;0;;;1;302000966;Martijn Brummelhuis;RVD
+2444075;4302967;15,40;0,00;0;Actief;0;;;1;302000967;Jelle Kok;Jaerbouck
+2444076;4302968;0,60;0,00;0;Actief;0;;;1;302000968;Shadab Eftekhar;
+2444077;4302969;1,00;0,00;0;Actief;0;;;1;302000969;Sarah Vanleeuwen;TapCie
+2444078;4302970;13,80;0,00;0;Actief;0;;;1;302000970;Mats Dirkzwager;LVV
+2444079;4302971;11,00;0,00;0;Actief;0;;;1;302000971;Jelle Westenberger;ScriptCie
+2444080;4302972;14,00;0,00;0;Actief;0;;;1;302000972;Sander Orbons;Limitless
+2444081;4302973;9,20;0,00;0;Actief;0;;;1;302000973;Menno Berger;
+2444082;4302974;20,50;0,00;0;Actief;0;;;1;302000974;Martijn Kanger;Limitless
+2444083;4302975;9,20;0,00;0;Actief;0;;;1;302000975;;
+2444084;4302976;6,60;0,00;0;Actief;0;;;1;302000976;;
+2444085;4302977;10,07;0,00;0;Actief;0;;;1;302000977;Marijn van Oorschot;Studytour
+2444086;4302978;20,30;0,00;0;Actief;0;;;1;302000978;Kirk Scheper;
+2444087;4302979;2,10;0,00;0;Actief;0;;;1;302000979;Kimberly Mcguie;
+2444088;4302980;28,70;0,00;0;Actief;0;;;1;302000980;Megan Walker;
+2444089;4302981;0,26;0,00;0;Actief;0;;;1;302000981;Johan;
+2444091;4302983;33,50;0,00;0;Actief;0;;;1;302000983;Clemens Dransfeld;
+2444092;4302984;1,50;0,00;0;Actief;0;;;1;302000984;2.60;
+2444093;4302985;2,20;0,00;0;Actief;0;;;1;302000985;Jari Lubberding;
+2444094;4302986;6,40;0,00;0;Actief;0;;;1;302000986;Bob van Noort;
+2444095;4302987;19,60;0,00;0;Actief;0;;;1;302000987;Niels Reurings;
+2444096;4302988;11,00;0,00;0;Actief;0;;;1;302000988;Amber van Hauwermeiren;
+2444097;4302989;21,70;0,00;0;Actief;0;;;1;302000989;NOVAM;NOVAM
+2444098;4302990;0,10;0,00;0;Actief;0;;;1;302000990;NOVAM;NOVAM
+2444104;4302996;8,61;0,00;17;Actief;0;;;1;302000996;Thomas Arblaster;Atmosfeerbeheer 9
+2444105;4302997;3,90;0,00;17;Actief;0;;;1;302000997;Anique Altena;Atmosfeerbeheer 9
+2444106;4302998;11,19;0,00;17;Actief;0;;;1;302000998;Max Aalberse;
+2444108;43021000;0,80;0,00;0;Actief;0;;;1;302001000;Bruce LeBlanc;
