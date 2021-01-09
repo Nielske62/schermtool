@@ -13,7 +13,7 @@ from commissielezer import *
 import sys
 from spotifyunit import *
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder=os.path.dirname(os.path.realpath(__file__)) + "/www/static")
 
 sys.maxsize = 2018302999999
 
@@ -23,7 +23,8 @@ dh = dh - 6
 statistiekenaan = 1
 turfdictalcohol = turflijst()
 turfdictfris = turflijst()
-testing = 0
+testing = 1
+path = os.path.dirname(os.path.realpath(__file__))
 
 
 @app.route('/index/spotify/')
@@ -49,7 +50,7 @@ def statistiekendeamon():
         rawdata = pakdata(dy, dm, dd, dh, dn, py, pm, pd, ph, pn)
 
     if testing == 1:
-        rawdata = open("TwelveTestInput.txt")
+        rawdata = open(path + "/TwelveTestInput.txt")
         rawdata = rawdata.readlines()
         statistiekenaan = 0
 
@@ -58,14 +59,19 @@ def statistiekendeamon():
 
     for i in rawdata:
         if foundstart == 0:
-            if '<tr class="row_even">' in i:
-                foundstart = 1
+            if testing == 1:
+                if '<tr class="row_even">' in i:
+                    foundstart = 1
+            else:
+                # rawdata is in bytes here
+                if '<tr class="row_even">' in i.decode('utf-8'):
+                    foundstart = 1
             teller += 1
 
     startpos = teller
 
     running = 1
-    if foundstart == 0:
+    if foundstart == 0:  # geen data
         running = 0
         print("Laf gezopen!")
     i = 0
@@ -91,8 +97,8 @@ def statistiekendeamon():
                     turfdictfris[commissiedict[int(naam)]] += int(hoeveel)
             i += 1
 
-    lijstalcohol = sorted(turfdictalcohol.iteritems(), key=None, reverse=True)
-    lijstfris = sorted(turfdictfris.iteritems(), key=None, reverse=True)
+    lijstalcohol = sorted(turfdictalcohol.items(), key=None, reverse=True)
+    lijstfris = sorted(turfdictfris.items(), key=None, reverse=True)
 
     sequence = "<table><tr><th width=40%>Alcoholic:</th><th width=10%></th><th width=40%>Non-alcoholic:</th><th width=10%></th></tr>\n"
     for i in range(len(lijstalcohol)):
@@ -112,25 +118,25 @@ def statistiekendeamon():
 
 @app.route('/index/')
 def indexpage():
-    page = open('www/page.html')
+    page = open(path + '/www/page.html')
     return page.read()
 
 
 @app.route('/prijslijst/')
 def prijslijstpage():
-    page = open('www/geenstatistiek.html')
+    page = open(path + '/www/geenstatistiek.html')
     return page.read()
 
 
 @app.route('/index/refresher.js')
 def refresher():
-    page = open('www/refresher.js')
+    page = open(path + '/www/refresher.js')
     return page.read()
 
 
 @app.route('/index/stylesheet.css')
 def stylesheet():
-    page = open('www/stylesheet.css')
+    page = open(path + '/www/stylesheet.css')
     return page.read()
 
 

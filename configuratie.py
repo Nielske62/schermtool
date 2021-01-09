@@ -1,3 +1,3 @@
 ##Config file
 
-rekeningenfile = "Rekeningen.csv"
+rekeningenfile = "rekeningen.csv"

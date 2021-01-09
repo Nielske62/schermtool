@@ -1,8 +1,10 @@
+import os
+
 import numpy as np
 from configuratie import rekeningenfile
 
 def commissielijst():
-    c_lijst = np.genfromtxt(rekeningenfile, dtype = None, skip_header = 1, delimiter = ";")
+    c_lijst = np.genfromtxt(os.path.dirname(os.path.realpath(__file__)) + "/rekeningen.csv", dtype = None, skip_header = 1, delimiter = ";")
     
     commissiedict = {}
     #Rekeningnummer index 1, commissie index 12
