@@ -39,11 +39,16 @@ def get_playing():
     token = str(refresher()['access_token'])
     r2 = requests.get("https://api.spotify.com/v1/me/player/currently-playing",
                       headers={"Authorization": "Bearer " + token})
-    return r2.json()
+    try:
+        return r2.json()
+    except:
+        print("ERROR: Leeg get_playing request")
 
 
 def info():
     obj = get_playing()
+    if obj is None:
+        return
     artist = str(obj['item']['artists'][0]['name'])
     song = str(obj['item']['name'])
     image = str(obj['item']['album']['images'][1]['url'])

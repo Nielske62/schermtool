@@ -13,7 +13,9 @@ from commissielezer import *
 import sys
 from spotifyunit import *
 
-app = Flask(__name__, static_folder=os.path.dirname(os.path.realpath(__file__)) + "/www/static")
+path = os.path.dirname(os.path.realpath(__file__))
+
+app = Flask(__name__, static_folder=path + "/www/static")
 
 sys.maxsize = 2018302999999
 
@@ -23,13 +25,14 @@ dh = dh - 6
 statistiekenaan = 1
 turfdictalcohol = turflijst()
 turfdictfris = turflijst()
-testing = 1
-path = os.path.dirname(os.path.realpath(__file__))
+testing = 0
 
 
 @app.route('/index/spotify/')
 def spotifyding():
     informatie = info()
+    if informatie is None:
+        return "<h1>Er ging iets mis met het laden van Spotify</h1> <h3><i>Sippe fluit begint met spelen</i></h3>"
     sequence = "<table><tr><th width=30% style='padding: 0px;' rowspan = 2><img src='" + informatie[
         'plaatje'] + "' width=100px></th><th id='CurrPlay'>Currently Playing:</th></tr>"
     sequence += "<tr>"
