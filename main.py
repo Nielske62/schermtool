@@ -6,7 +6,7 @@ Created on Thu Sep 20 15:21:58 2018
 """
 
 from flask import Flask
-import numpy as np
+from productenlezer import *
 from datapakker import *
 import time
 from commissielezer import *
@@ -23,8 +23,13 @@ sys.maxsize = 2018302999999
 dy, dm, dd, dh, dn = time.localtime(time.time())[0:5]
 dh = dh - 6
 statistiekenaan = 1
-turfdictalcohol = turflijst()
-turfdictfris = turflijst()
+# turfdictalcohol = turflijst()
+# turfdictfris = turflijst()
+turfdictalcohol = {}
+turfdictfris = {}
+totalData = {}
+productDict = productenDict()
+
 testing = 1
 
 
@@ -85,37 +90,44 @@ def statistiekendeamon():
             running = 0
         else:
             rekeningnummer = rawdata[startpos + 6 + 25 * i].strip("\t<td>").strip("</td>\n")
-            aantal = rawdata[startpos + 16 + 25 * i].strip('\t<td align="right">').strip("</td>\n")
-            product = rawdata[startpos + 23 + 25 * i].strip("\t<td>").strip(
+            aantal = rawdata[startpos + 15 + 25 * i].strip('\t<td align="right">').strip("</td>\n")
+            productID = rawdata[startpos + 13 + 25 * i].strip("\t<td>").strip(
                 "</td>\n")  # print naam + " en die kocht " + hoeveel + " " + product
             if '2018302' in rekeningnummer:
                 rekeningnummer = int(rekeningnummer) - 2018302000000 + 4302000
-            if rekeningnummer == '':  # Make sure pin or cash doesnt crash the system
+            if rekeningnummer == '':  # Betaald met pin, niet op rekening
                 pass
-            elif int(rekeningnummer) in commissiedict and commissiedict[int(rekeningnummer)] != '':
-                if commissiedict[int(rekeningnummer)] not in turfdictalcohol:
-                    turfdictalcohol[commissiedict[int(rekeningnummer)]] = 0
-                    turfdictfris[commissiedict[int(rekeningnummer)]] = 0
-                if int(product) == 8010:
-                    turfdictalcohol[commissiedict[int(rekeningnummer)]] += int(aantal)
-                if int(product) == 8020:
-                    turfdictfris[commissiedict[int(rekeningnummer)]] += int(aantal)
+            else:
+                if rekeningnummer not in totalData:
+                    totalData[rekeningnummer] = {}
+                    totalData[rekeningnummer]["Bier"] = 0
+                    totalData[rekeningnummer]["Wijn"] = 0
+                    totalData[rekeningnummer]["Fris"] = 0
+                    totalData[rekeningnummer]["Snacks"] = 0
+                    totalData[rekeningnummer]["Overig"] = 0
+
+                totalData[rekeningnummer][productDict[productID]] += int(aantal)
+
             i += 1
 
-    lijstalcohol = sorted(turfdictalcohol.items(), key=None, reverse=True)
-    lijstfris = sorted(turfdictfris.items(), key=None, reverse=True)
+    lijstalcohol = {}
+    for rekeningnummer in totalData:
+        lijstalcohol[rekeningnummer] = totalData[rekeningnummer]["Bier"]
+
+    # lijstalcohol = sorted(turfdictalcohol.items(), key=None, reverse=True)
+    # lijstfris = sorted(turfdictfris.items(), key=None, reverse=True)
 
     sequence = "<table><tr><th width=40%>Alcoholic:</th><th width=10%></th><th width=40%>Non-alcoholic:</th><th width=10%></th></tr>\n"
-    for i in range(len(lijstalcohol)):
+    for i in lijstalcohol:
         sequence += "<tr>\n"
-        if lijstalcohol[i][1] != 0:
-            sequence += "<td>" + str(lijstalcohol[i][0]) + "</td><td width=10%>" + str(lijstalcohol[i][1]) + "</td>\n"
+        if lijstalcohol[i] != 0:
+            sequence += "<td>" + i + "</td><td width=10%>" + str(lijstalcohol[i]) + "</td>\n"
         else:
             sequence += "<td></td><td></td>\n"
-        if lijstfris[i][1] != 0:
-            sequence += "<td>" + str(lijstfris[i][0]) + "</td><td width=10%>" + str(lijstfris[i][1]) + "</td>\n"
-        else:
-            sequence += "<td></td><td></td>\n"
+        # if lijstfris[i][1] != 0:
+        #     sequence += "<td>" + str(lijstfris[i][0]) + "</td><td width=10%>" + str(lijstfris[i][1]) + "</td>\n"
+        # else:
+        #     sequence += "<td></td><td></td>\n"
         sequence += "</tr>\n"
     sequence += "</table>"
     return sequence

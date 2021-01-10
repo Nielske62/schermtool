@@ -8,5 +8,5 @@ setInterval(function() {
 		
 	});
 
-}, 30000);
+}, 3000);
 
