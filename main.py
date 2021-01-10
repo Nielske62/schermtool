@@ -5,12 +5,14 @@ Created on Thu Sep 20 15:21:58 2018
 @author: Arjan B'vomeulen
 """
 
-from flask import Flask
-from productenlezer import *
-from datapakker import *
-import time
-from commissielezer import *
 import sys
+import time
+
+from flask import Flask
+
+from commissielezer import *
+from datapakker import *
+from productenlezer import *
 from spotifyunit import *
 
 path = os.path.dirname(os.path.realpath(__file__))
@@ -117,7 +119,8 @@ def statistiekendeamon():
     # lijstalcohol = sorted(turfdictalcohol.items(), key=None, reverse=True)
     # lijstfris = sorted(turfdictfris.items(), key=None, reverse=True)
 
-    sequence = "<table><tr><th width=40%>Alcoholic:</th><th width=10%></th><th width=40%>Non-alcoholic:</th><th width=10%></th></tr>\n"
+    sequence = "<table><tr><th width=40%>Alcoholic:</th><th width=10%></th><th width=40%>Non-alcoholic:</th><th " \
+               "width=10%></th></tr>\n "
     for i in lijstalcohol:
         sequence += "<tr>\n"
         if lijstalcohol[i] != 0:

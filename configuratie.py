@@ -1,3 +1,3 @@
-##Config file
+# Config file
 
 rekeningenfile = "rekeningen.csv"

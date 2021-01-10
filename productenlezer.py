@@ -1,5 +1,6 @@
-import os
 import csv
+import os
+
 
 # FORMAT (met index):
 # ID(0);Naam kort;Naam lang;Prijs;Muntwaarde;BTW id;

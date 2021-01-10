@@ -1,7 +1,8 @@
-import requests
 import numpy as np
-from configuratie import rekeningenfile
+import requests
+
 from accountfile import gebruikersnaam, wachtwoord
+from configuratie import rekeningenfile
 
 
 def pakdata(dy, dm, dd, dh, dn, py, pm, pd, ph, pn):
@@ -36,6 +37,7 @@ def pakdata(dy, dm, dd, dh, dn, py, pm, pd, ph, pn):
             'report_time_end_n': dn
         }
 
+        # p needed to login
         p = s.get("https://admin.twelve.eu/scripts/login_post.aspx", data=payload)
         pagina = s.get('https://admin.twelve.eu/scripts/admin/report_edit.aspx?strTab=rbsd&clt_id=3020', data=payload2)
         s.close()
