@@ -25,7 +25,7 @@ dh = dh - 6
 statistiekenaan = 1
 turfdictalcohol = turflijst()
 turfdictfris = turflijst()
-testing = 0
+testing = 1
 
 
 @app.route('/index/spotify/')
@@ -50,27 +50,28 @@ def statistiekendeamon():
         py, pm, pd, ph, pn = dy, dm, dd, dh, dn
         dy, dm, dd, dh, dn = time.localtime(time.time())[0:5]
         # Fetch raw transaction data from Twelve
-        rawdata = pakdata(dy, dm, dd, dh, dn, py, pm, pd, ph, pn)
+        rawdata = list(
+            map(lambda x: x.decode('utf-8'),
+                pakdata(dy, dm, dd, dh, dn, py, pm, pd, ph, pn))
+        )
 
     if testing == 1:
-        rawdata = open(path + "/TwelveTestInput.txt")
-        rawdata = rawdata.readlines()
-        statistiekenaan = 0
+        rawdata = list(
+            map(lambda x: x.decode('utf-8'),
+                pakdata(2020, 1, 9, 23, 59, 2020, 1, 9, 14, 0))
+        )
 
     foundstart = 0
     teller = -1
 
     for i in rawdata:
         if foundstart == 0:
-            if testing == 1:
-                if '<tr class="row_even">' in i:
-                    foundstart = 1
-            else:
-                # rawdata is in bytes here
-                if '<tr class="row_even">' in i.decode('utf-8'):
-                    foundstart = 1
+            # rawdata is in bytes here
+            if '<tr class="row_even">' in i:
+                foundstart = 1
             teller += 1
 
+    # startpos is the first instance of the table row with data (<tr>)
     startpos = teller
 
     running = 1
@@ -79,25 +80,26 @@ def statistiekendeamon():
         print("Laf gezopen!")
     i = 0
     while running:
-        if "TABLE" in str(rawdata[teller + 15 + 26 * i]):
+        if "</table>" in rawdata[startpos + 25 * i]:
+            # end of table is reached
             running = 0
         else:
-            naam = rawdata[teller + 6 + 26 * i].strip("\t<td>").strip("</td>\n")
-            hoeveel = rawdata[teller + 16 + 26 * i].strip('\t<td align="right">').strip("</td>\n")
-            product = rawdata[teller + 23 + 26 * i].strip("\t<td>").strip(
+            rekeningnummer = rawdata[startpos + 6 + 25 * i].strip("\t<td>").strip("</td>\n")
+            aantal = rawdata[startpos + 16 + 25 * i].strip('\t<td align="right">').strip("</td>\n")
+            product = rawdata[startpos + 23 + 25 * i].strip("\t<td>").strip(
                 "</td>\n")  # print naam + " en die kocht " + hoeveel + " " + product
-            if '2018302' in naam:
-                naam = int(naam) - 2018302000000 + 4302000
-            if naam == '':  # Make sure pin or cash doesnt crash the system
+            if '2018302' in rekeningnummer:
+                rekeningnummer = int(rekeningnummer) - 2018302000000 + 4302000
+            if rekeningnummer == '':  # Make sure pin or cash doesnt crash the system
                 pass
-            elif int(naam) in commissiedict and commissiedict[int(naam)] != '':
-                if commissiedict[int(naam)] not in turfdictalcohol:
-                    turfdictalcohol[commissiedict[int(naam)]] = 0
-                    turfdictfris[commissiedict[int(naam)]] = 0
+            elif int(rekeningnummer) in commissiedict and commissiedict[int(rekeningnummer)] != '':
+                if commissiedict[int(rekeningnummer)] not in turfdictalcohol:
+                    turfdictalcohol[commissiedict[int(rekeningnummer)]] = 0
+                    turfdictfris[commissiedict[int(rekeningnummer)]] = 0
                 if int(product) == 8010:
-                    turfdictalcohol[commissiedict[int(naam)]] += int(hoeveel)
+                    turfdictalcohol[commissiedict[int(rekeningnummer)]] += int(aantal)
                 if int(product) == 8020:
-                    turfdictfris[commissiedict[int(naam)]] += int(hoeveel)
+                    turfdictfris[commissiedict[int(rekeningnummer)]] += int(aantal)
             i += 1
 
     lijstalcohol = sorted(turfdictalcohol.items(), key=None, reverse=True)
