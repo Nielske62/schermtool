@@ -29,7 +29,12 @@ statistiekenaan = 1
 # turfdictfris = turflijst()
 turfdictalcohol = {}
 turfdictfris = {}
-totalData = {}
+totalData = {"Bier": {},
+             "Wijn": {},
+             "Fris": {},
+             "Snacks": {},
+             "Overig": {}
+             }
 productDict = productenDict()
 
 testing = 1
@@ -105,33 +110,30 @@ def statistiekendeamon():
             else:
                 if rekeningnummer not in totalData:
                     # if rekeningnummer not yet in dict -> set default values
-                    totalData[rekeningnummer] = {}
-                    totalData[rekeningnummer]["Bier"] = 0
-                    totalData[rekeningnummer]["Wijn"] = 0
-                    totalData[rekeningnummer]["Fris"] = 0
-                    totalData[rekeningnummer]["Snacks"] = 0
-                    totalData[rekeningnummer]["Overig"] = 0
+                    totalData["Bier"][rekeningnummer] = 0
+                    totalData["Wijn"][rekeningnummer] = 0
+                    totalData["Fris"][rekeningnummer] = 0
+                    totalData["Snacks"][rekeningnummer] = 0
+                    totalData["Overig"][rekeningnummer] = 0
 
-                totalData[rekeningnummer][productDict[productID]] += int(aantal)
+                totalData[productDict[productID]][rekeningnummer] += int(aantal)
 
             i += 1
 
-    alcoholDict = {}
-    for rekeningnummer in totalData:
-        alcoholDict[rekeningnummer] = totalData[rekeningnummer]["Bier"]
+    bierDict = totalData["Bier"]
 
     # sort dict
-    alcoholDict = dict(sorted(alcoholDict.items(), key=lambda item: item[1], reverse=True))
+    bierDict = dict(sorted(bierDict.items(), key=lambda item: item[1], reverse=True))
 
     # lijstalcohol = sorted(turfdictalcohol.items(), key=None, reverse=True)
     # lijstfris = sorted(turfdictfris.items(), key=None, reverse=True)
 
     sequence = "<table><tr><th width=40%>Alcoholic:</th><th width=10%></th><th width=40%>Non-alcoholic:</th><th " \
                "width=10%></th></tr>\n "
-    for i in alcoholDict:
+    for i in bierDict:
         sequence += "<tr>\n"
-        if alcoholDict[i] != 0:
-            sequence += "<td>" + i + "</td><td width=10%>" + str(alcoholDict[i]) + "</td>\n"
+        if bierDict[i] != 0:
+            sequence += "<td>" + i + "</td><td width=10%>" + str(bierDict[i]) + "</td>\n"
         else:
             sequence += "<td></td><td></td>\n"
         # if lijstfris[i][1] != 0:
