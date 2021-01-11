@@ -54,6 +54,9 @@ def statistiekendeamon():
     commissiedict = commissielijst()
     commissiedict[''] = ''
     if testing == 0:
+        # py pm etc are the dates from the previous data retrieval.
+        # the new data is from the interval [previous_retrieval_date, current_date]
+        # the daemon only adds the new data to existing data.
         py, pm, pd, ph, pn = dy, dm, dd, dh, dn
         dy, dm, dd, dh, dn = time.localtime(time.time())[0:5]
         # Fetch raw transaction data from Twelve
@@ -101,6 +104,7 @@ def statistiekendeamon():
                 pass
             else:
                 if rekeningnummer not in totalData:
+                    # if rekeningnummer not yet in dict -> set default values
                     totalData[rekeningnummer] = {}
                     totalData[rekeningnummer]["Bier"] = 0
                     totalData[rekeningnummer]["Wijn"] = 0
@@ -112,19 +116,22 @@ def statistiekendeamon():
 
             i += 1
 
-    lijstalcohol = {}
+    alcoholDict = {}
     for rekeningnummer in totalData:
-        lijstalcohol[rekeningnummer] = totalData[rekeningnummer]["Bier"]
+        alcoholDict[rekeningnummer] = totalData[rekeningnummer]["Bier"]
+
+    # sort dict
+    alcoholDict = dict(sorted(alcoholDict.items(), key=lambda item: item[1], reverse=True))
 
     # lijstalcohol = sorted(turfdictalcohol.items(), key=None, reverse=True)
     # lijstfris = sorted(turfdictfris.items(), key=None, reverse=True)
 
     sequence = "<table><tr><th width=40%>Alcoholic:</th><th width=10%></th><th width=40%>Non-alcoholic:</th><th " \
                "width=10%></th></tr>\n "
-    for i in lijstalcohol:
+    for i in alcoholDict:
         sequence += "<tr>\n"
-        if lijstalcohol[i] != 0:
-            sequence += "<td>" + i + "</td><td width=10%>" + str(lijstalcohol[i]) + "</td>\n"
+        if alcoholDict[i] != 0:
+            sequence += "<td>" + i + "</td><td width=10%>" + str(alcoholDict[i]) + "</td>\n"
         else:
             sequence += "<td></td><td></td>\n"
         # if lijstfris[i][1] != 0:
