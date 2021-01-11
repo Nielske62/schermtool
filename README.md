@@ -1,2 +1,4 @@
 # schermtool
-De Schermtool van de nieuwe Atmos. Schittermagisch in elkaar gevouwen door Secretaris 9. Waarvoor Vo.
+De schermtool voor statistieken en meer van de /Pub
+
+Fork van de toppers bij Atmosfeer ([tool](https://github.com/de-atmosfeer/schermtool))
