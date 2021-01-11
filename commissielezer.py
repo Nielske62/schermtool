@@ -5,7 +5,7 @@ import numpy as np
 
 def commissielijst():
     try:
-        c_lijst = np.genfromtxt(os.path.dirname(os.path.realpath(__file__)) + "/rekeningen.csv", dtype=None,
+        c_lijst = np.genfromtxt(os.path.dirname(os.path.realpath(__file__)) + "/data/rekeningen.csv", dtype=None,
                                 skip_header=1, delimiter=";", encoding='windows-1252')
     except ConnectionError:
         print("ERROR: GEEN INTERNET")

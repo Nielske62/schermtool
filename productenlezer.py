@@ -9,7 +9,7 @@ import os
 
 
 def productenDict():
-    with open(os.path.dirname(os.path.realpath(__file__)) + "/producten.csv") as csvDataFile:
+    with open(os.path.dirname(os.path.realpath(__file__)) + "/data/producten.csv") as csvDataFile:
         producten = csv.reader(csvDataFile, delimiter=";")
 
         # skip header
