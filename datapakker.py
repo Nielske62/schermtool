@@ -1,8 +1,8 @@
 import numpy as np
 import requests
 
-from accountfile import gebruikersnaam, wachtwoord
-from configuratie import rekeningenfile
+from config.accountfile import gebruikersnaam, wachtwoord
+from config.configuratie import rekeningenfile
 
 
 def pakdata(dy, dm, dd, dh, dn, py, pm, pd, ph, pn):
